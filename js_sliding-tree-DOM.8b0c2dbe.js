@@ -1,0 +1,2 @@
+"use strict";document.querySelectorAll(".tree li").forEach(function(e){var t=e.querySelector("ul");if(t){var n=Array.from(e.childNodes).find(function(e){return e.nodeType===Node.TEXT_NODE&&""!==e.textContent.trim()}),r=document.createElement("span");r.textContent=n.textContent.trim(),r.style.cursor="pointer",e.insertBefore(r,n),e.removeChild(n),r.addEventListener("click",function(){t.hidden=!t.hidden})}});
+//# sourceMappingURL=js_sliding-tree-DOM.8b0c2dbe.js.map
